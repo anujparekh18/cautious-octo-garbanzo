@@ -1,0 +1,171 @@
+@import 'https://fonts.googleapis.com/css?family=Lato:400,700';
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: beige;
+}
+
+#header{
+    position: fixed;
+    width: 100%;
+    background-color: red;
+    padding: 1em;
+}
+
+#header-img{
+    height: 50px;
+    width: 400px;
+    float: left;
+}
+
+nav ul{
+    float: right;
+    padding-right: 1em;
+}
+
+nav li{
+    padding: 1em;
+    display: inline-block;
+}
+
+#hero{
+    padding: 10em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.btn{
+    margin-top: 15px;
+    padding:1em;
+    background-color: yellow;
+    border-radius: 2px;
+    cursor: pointer;
+    border:0;
+    font-weight: 900;
+    font-size: 1em;
+    margin-bottom: 20px;
+}
+
+#email{
+    margin-top: 15px;
+    padding: 1em;
+    width: 350px;
+}
+
+a{
+    text-decoration: none;
+}
+
+h2{
+    font-size: 30px;
+    margin: 20px 0;
+}
+
+.btn:hover{
+    background-color:#ff00ff;
+}
+
+.grid{
+    display: inline-flex;
+    margin-left: 10em;
+    align-items: center;
+    justify-content: center;
+}
+
+.icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 120px;
+    width: 20vw;
+}
+
+.desc {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#how-it-works {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2em;
+}
+
+#video {
+    width: 50%;
+    height: 50%;
+}
+
+#pricing{
+    margin: 60px 200px; 
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#pricing #tenor, #pricing #bass, #pricing #valve{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: calc(100% / 3);
+    margin: 10px;
+    border: 1px solid #000;
+    border-radius:3px;
+}
+
+.level{
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    background-color: #ddd;
+    padding: 20px 79px;
+}
+
+ol{
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+    font-size: 20px;
+    list-style-type: none;
+}
+
+#pricing li{
+    padding: 10px 0;
+}
+
+footer{
+    display: block;
+    background-color: #ddd;
+    margin: 20px;
+    margin-top: 30px;
+    padding: 10px 5px;
+}
+
+footer ul{
+    display: flex;
+    justify-content: flex-end;
+}
+
+footer li{
+    display: inline-block;
+    flex-direction: column;
+    padding: 0 20px;
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+span{
+    display: flex;
+    justify-content: flex-end;
+    font-size: 20px;    
+    margin-top: 5px;
+}
