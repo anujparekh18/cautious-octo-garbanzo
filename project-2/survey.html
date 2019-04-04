@@ -1,0 +1,111 @@
+<head>
+    <link href="survey.css" rel="stylesheet">
+
+</head>
+
+<h1 id="title">Survey Form</h1>
+<form id="survey-form">
+  <p id="description">Let us know how we can improve freeCodeCamp</p>
+  <div class="padding">
+    <div class="labels">
+      <label id="name-label" for="name">*Name:</label>
+    </div>
+    <div class="input">
+      <input class="input-field size" id="name" required type="text" placeholder="Enter your name">
+    </div>
+  </div>
+  <div class="padding">
+    <div class="labels">
+      <label id="email-label" for="email">*Email:</label>
+    </div>
+    <div class="input">
+      <input class="input-field size" required type="email" id="email" placeholder="Enter your email">
+    </div>
+  </div>
+  <div class="padding">
+    <div class="labels">
+      <label id="number-label" for="number">*Age:</label>
+    </div>
+    <div class="input">
+      <input class="input-field size" required type="number" min="1" max="150" placeholder="Age" id="number">
+    </div>
+  </div>
+  <div class="padding">
+    <div class="labels">
+      <label for="dropdown">Which option best describes your current role?"</label>
+    </div>
+    <div class="input">
+      <select class="input-field" id="dropdown">
+        <option>Student</option>
+        <option>Employee</option>
+        </select>
+    </div>
+  </div>
+  <div class="padding">
+    <div class="labels">
+      <label>*How likely is that you would recommend freeCodeCamp to a friend?</label>
+    </div>
+    <div class="input">
+      <div>
+        <input class="size" type="radio" unchecked id="definitely" name="choice" value="definitely">
+        <label for="definitely">Definitely</label>
+
+      </div>
+      <div>
+        <input class="size" type="radio" unchecked id="maybe" name="choice" value="maybe">
+        <label for="maybe">Maybe</label>
+
+      </div>
+      <div>
+        <input class="size" type="radio" unchecked id="not-sure" name="choice" value="not-sure">
+        <label for="not-sure">Not Sure</label>
+
+      </div>
+    </div>
+  </div>
+  <div class="padding">
+    <div class="labels">
+      <label for="dropdown-2">What do you like most in FCC:</label>
+    </div>
+    <div class="input">
+      <select class="input-field" id="dropdown-2">
+          <option value="" disabled selected>Select your option</option>
+          <option>Projects</option>
+          <option>Community</option>
+            </select>
+    </div>
+  </div>
+  <div class="padding">
+    <div class="labels">
+      <label>Things that should be improved in the future (Check all that apply):</label>
+    </div>
+    <div class="input">
+
+      <div>
+        <input type="Checkbox" unchecked id="front-end" value="front-end" name="services">
+        <label for="front-end">Front-end Projects</label>
+
+      </div>
+      <div>
+        <input type="Checkbox" unchecked id="back-end" value="back-end" name="services">
+        <label for="back-end">Back-end Projects</label>
+
+      </div>
+      <div>
+        <input type="Checkbox" unchecked id="videos" value="videos" name="services">
+        <label for="videos">Videos</label>
+
+      </div>
+    </div>
+  </div>
+  <div class="padding">
+    <label class="labels" for="comments">Any Comments or Suggestions?</label>
+    <textarea class="input" id="comments" cols="30" rows="10"></textarea>
+  </div>
+  <div class="padding">
+    <div>
+      <button id="submit" type="submit">Submit</button>
+    </div>
+  </div>
+</form>
+</div>
