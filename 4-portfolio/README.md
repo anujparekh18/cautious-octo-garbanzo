@@ -1,11 +1,11 @@
-![screenshot]
+![screenshot1]
 
-[screenshot]: ./project-4-portfolio-1.png
+[screenshot1]: ./project-4-portfolio-1.png
 
-![screenshot]
+![screenshot2]
 
-[screenshot]: ./project-4-portfolio-2.png
+[screenshot2]: ./project-4-portfolio-2.png
 
-![screenshot]
+![screenshot3]
 
-[screenshot]: ./project-4-portfolio-3.png
+[screenshot3]: ./project-4-portfolio-3.png
